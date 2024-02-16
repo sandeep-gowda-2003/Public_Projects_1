@@ -1,0 +1,43 @@
+body{
+    background-color:bisque;
+}
+
+.header{
+    display: flex;
+    margin: auto;
+}
+.navbar{
+    width: 80%;
+    background-color: aqua;
+    border-radius: 15px;
+}
+.navbar>ul{
+    display: flex;
+}
+
+ul>li{
+    list-style: none;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    padding: 5px;
+    color:blue;
+}
+li>a:hover{
+    color:rgba(75, 75, 158, 0.854);
+}
+.sign{
+    margin-left: auto;
+}
+.sign>button{
+    margin: 12px 15px 0 10px;
+}
+
+.content{
+    margin-top: 20px;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(19, 18, 16);
+    border-radius: 30px;
+}
